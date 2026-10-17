@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(230, 221, 243);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('galaxy.jpg');
+}
+
+img {
+    max-width: 1500px;
+    margin-left: 10px;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 7px 10px 5px black;
+    border: 5px solid slateblue;
+}
+
+h1 {
+    font-weight: 500px;
+    color:darkslateblue;
+}
+
+h2 {
+    font-weight: 100px;
+    color: darkslateblue;
+}
+
+h3 {
+
+}
+
+p {
+    color: white;
+}
