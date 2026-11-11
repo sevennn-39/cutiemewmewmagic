@@ -4,29 +4,72 @@ body {
     background-image: url('galaxy.jpg');
 }
 
-img {
-    max-width: 1500px;
+#image {
+    max-width: 450px;
     margin-left: 10px;
     margin-right: auto;
     border-radius: 25px;
-    box-shadow: 7px 10px 5px black;
+    box-shadow: 7px 10px 5px rgb(51, 47, 62);
     border: 5px solid slateblue;
 }
 
+#welcomeheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#welcomeheader > img:first-child {
+    width: 300px;
+    height: auto;
+}
+
+#welcomeclose {
+    width: 100px;
+    height: auto;
+}
+
 h1 {
-    font-weight: 500px;
-    color:darkslateblue;
+    font-weight: bolder;
+    color: cornflowerblue;
 }
 
 h2 {
     font-weight: 100px;
-    color: darkslateblue;
+    color: slateblue;
 }
 
 h3 {
-
+    color: slateblue;
 }
 
 p {
     color: white;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    color:cornflowerblue;
+}
+
+#welcome {
+    position: absolute; top: 50%;
+    transform: translate(-50%, -25%); 
+    left: 50%; 
+    border: solid; 
+    border-color: aqua; 
+    width: 500px; 
+    background-color: rgb(65, 62, 96); 
+    border-radius: 25px; 
+    padding: 16px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between; 
+    display: flex; 
+    background-color: rgb(133, 109, 168, 0.50); 
+    border-radius: 2px; 
+    border-color:aqua;
 }
